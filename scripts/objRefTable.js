@@ -20,11 +20,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Sprite.Acts.SetVisible,
-		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.System.Cnds.CompareBoolVar,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
-		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.SetBoolVar,
@@ -81,6 +80,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.CancelFullScreen,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
 		C3.Plugins.Audio.Acts.SetPaused,
+		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.Text.Acts.SetVisible
 	];
 };
